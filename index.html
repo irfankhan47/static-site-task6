@@ -4,9 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Irfan's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> <!-- Google Fonts -->
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Roboto', sans-serif;
       margin: 0;
       background-color: #f5f5f5;
       color: #333;
@@ -16,6 +17,7 @@
       color: white;
       padding: 20px 0;
       text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
     nav {
       margin-top: 10px;
@@ -25,10 +27,22 @@
       margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+      color: #FFD700; /* Gold color on hover */
     }
     section {
       padding: 40px;
       text-align: center;
+      margin: 20px 0;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    #projects {
+      background-color: #e7f7ff;
     }
     footer {
       background-color: #1e90ff;
@@ -47,6 +61,19 @@
       text-decoration: none;
       border-radius: 5px;
       margin-top: 20px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #FFD700; /* Gold color on hover */
+    }
+    @media (max-width: 768px) {
+      nav a {
+        margin: 0 10px;
+      }
+      section {
+        padding: 20px;
+      }
     }
   </style>
 </head>
@@ -62,18 +89,18 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <p>Hello! I'm Irfan, a DevOps enthusiast learning cloud technologies and tools like AWS, Docker, and Kubernetes.</p>
+    <p>Hello! I'm Irfan, a DevOps enthusiast learning cloud technologies and tools like AWS, Docker, and Kubernetes. I'm passionate about automation and cloud infrastructure.</p>
   </section>
 
   <section id="projects">
     <h2>Projects</h2>
-    <p>Here you'll find my hands-on projects built during my internship and learning journey.</p>
+    <p>Here you'll find my hands-on projects built during my internship and learning journey. Click below to view my code and contributions on GitHub.</p>
     <a class="btn" href="https://github.com/irfankhan47" target="_blank">Visit My GitHub</a>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Reach out to me via GitHub or email: <strong>your-email@example.com</strong></p>
+    <p>Feel free to reach out to me via GitHub or email: <strong>your-email@example.com</strong></p>
   </section>
 
   <footer>
