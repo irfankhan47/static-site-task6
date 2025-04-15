@@ -123,23 +123,30 @@ Initializing Git Repository:
 ```
 git init
 ```
+![git init](https://github.com/user-attachments/assets/573a4cda-045d-4193-b117-87ba87fb23c0)
 
 Adding and Committing Changes:
 ```
 git add index.html
 git commit -m "Initial commit with HTML file"
 ```
+![git add](https://github.com/user-attachments/assets/b80776ec-582c-452e-a8ef-b4c218ad238e)
+
+![git commit](https://github.com/user-attachments/assets/481e86ec-a865-451e-96d1-8ba57a43bb5a)
 
 Pushing to GitHub:
 ```
 git remote add origin <your-repository-url>
 git push -u origin main
 ```
+![git push](https://github.com/user-attachments/assets/41ea4818-219f-429b-87ab-bc78f0c4c314)
 
 GitHub Pages Setup:
+
+![git hubb](https://github.com/user-attachments/assets/afc6ca61-cd99-447c-ba91-6b12270317d2)
 
 Live Website Link:
 Your live website can be accessed at:
 https://<your-username>.github.io/<your-repository-name>/
 
-Feel free to replace the placeholder <your-repository-url> and <your-username> with your actual details. Let me know if you need help with anything else!
+![finalll](https://github.com/user-attachments/assets/0e7673b1-19e1-4a57-9762-4fa9fd6a16e5)
